@@ -88,7 +88,8 @@ function draw() {
   //displaying score
   text("Score: "+ score, 500,50);
   
-  
+  camera.position.x = trex.x + 250;
+
   if(gameState === PLAY){
     
     // gameover and restart buttons not visible
